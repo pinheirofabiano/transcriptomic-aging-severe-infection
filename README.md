@@ -91,8 +91,9 @@ Run `R/99_sessionInfo.R` after analysis to freeze the exact versions used in the
 
 ## Citation
 
-Please cite the associated manuscript and the archived GitHub/Zenodo release. Update
-Zenodo DOI before release.
+Code archive: GitHub release v1.0.1 has been permanently archived in Zenodo.
+DOI: 10.5281/zenodo.22679541
+GitHub repository: https://github.com/pinheirofabiano/transcriptomic-aging-severe-infection
 
 ## License
 
