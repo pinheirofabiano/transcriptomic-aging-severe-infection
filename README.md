@@ -43,11 +43,7 @@ cohorts: approximately **+4.92 years** for severe COVID-19 and **+7.94 years** f
 
 ### Important deconvolution provenance note
 
-The recovered archived analysis passed VST expression matrices to `immunedeconv`/quanTIseq.
-This is stated explicitly in `R/config.R` and is not hidden or retrospectively rewritten. If the
-final manuscript analysis is rerun using TPM or another recommended non-log expression input,
-all leukocyte-adjusted results should be regenerated and the configuration updated before the
-repository is cited as the final analysis workflow.
+The original analysis supplied DESeq2 variance-stabilized expression matrices to quanTIseq through the immunedeconv interface. This preprocessing choice is retained in the present repository to ensure that the deposited code accurately reflects the analysis underlying the reported results. The transcriptomic-age analysis was performed separately using raw gene-level counts as input to RNAAgeCalc, with the package performing its required internal normalization and transformation.
 
 ## Inputs
 
