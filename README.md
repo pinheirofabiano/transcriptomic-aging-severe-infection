@@ -96,7 +96,7 @@ Run `R/99_sessionInfo.R` after analysis to freeze the exact versions used in the
 ## Citation
 
 Please cite the associated manuscript and the archived GitHub/Zenodo release. Update
-`CITATION.cff` with the final GitHub repository URL and Zenodo DOI before release.
+Zenodo DOI before release.
 
 ## License
 
